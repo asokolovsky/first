@@ -14,6 +14,6 @@ public class AppTest
 	        get("http://ergast.com/api/f1/2017/circuits.json").
 	    then().
 	        assertThat().
-	        statusCode(200);
+	        statusCode(100);
 	}
 }
